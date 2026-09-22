@@ -1,0 +1,404 @@
+﻿.packages-page {
+    color: #183e3a;
+    padding: 1rem 0 2rem;
+}
+
+.packages-page .packages-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.packages-page .packages-eyebrow {
+    color: #526660;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.packages-page h1 {
+    margin: 0.5rem 0;
+    color: #183e3a;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    font-weight: 400;
+}
+
+.packages-page .packages-heading p,
+.packages-page .packages-count {
+    margin: 0;
+    color: #526660;
+}
+
+.packages-page .packages-panel {
+    padding: clamp(1rem, 3vw, 2rem);
+    border: 1px solid #e1e7e3;
+    border-radius: 1.25rem;
+    background: white;
+    box-shadow: 0 10px 30px rgba(24, 62, 58, 0.05);
+}
+
+.packages-page .packages-search {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.packages-page .packages-search-field {
+    flex: 1 1 15rem;
+}
+
+.packages-page .packages-search .form-control {
+    min-height: 2.9rem;
+    border-color: #cdd8d1;
+    border-radius: 0.75rem;
+}
+
+.packages-page .packages-primary,
+.packages-page .packages-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 2.9rem;
+    padding: 0.7rem 1.25rem;
+    border: 1px solid #183e3a;
+    border-radius: 999px;
+    font: inherit;
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.packages-page .packages-primary {
+    background: #183e3a;
+    color: white;
+}
+
+.packages-page .packages-primary:hover {
+    background: #285a53;
+    color: white !important;
+}
+
+.packages-page .packages-secondary {
+    background: white;
+    color: #183e3a;
+}
+
+.packages-page .packages-secondary:hover {
+    background: #f5f1e9;
+    color: #183e3a !important;
+}
+
+.packages-page .packages-count {
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+
+.packages-page .packages-table {
+    margin-bottom: 0;
+    color: #183e3a;
+}
+
+.packages-page .packages-table thead th {
+    padding: 1rem;
+    background: #f5f1e9;
+    color: #354f48;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.packages-page .packages-table tbody th,
+.packages-page .packages-table tbody td {
+    padding: 1.2rem 1rem;
+    border-color: #e1e7e3;
+    background: white;
+    color: #183e3a;
+    font-size: 0.9rem;
+}
+
+.packages-page .packages-name {
+    display: block;
+    min-width: 10rem;
+    font-weight: 600;
+}
+
+.packages-page .packages-id {
+    display: block;
+    margin-top: 0.25rem;
+    color: #526660;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.packages-page .packages-status {
+    display: inline-block;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: #e7f1eb;
+    color: #23543b;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.packages-page .packages-status-other {
+    background: #f0f1f0;
+    color: #526660;
+}
+
+.packages-page .packages-actions {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.packages-page .packages-actions a {
+    padding: 0.55rem 0.7rem;
+    border: 1px solid #d9e1dc;
+    border-radius: 0.6rem;
+    color: #183e3a;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.packages-page .packages-actions a:hover {
+    background: #f5f1e9;
+    color: #183e3a !important;
+}
+
+.packages-page .packages-actions .packages-delete {
+    color: #a32d32;
+}
+
+.packages-page .packages-actions .packages-delete:hover {
+    background: #fceced;
+    color: #a32d32 !important;
+}
+
+.packages-page .packages-empty {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.packages-page .packages-empty i {
+    margin-bottom: 1rem;
+    color: #526660;
+    font-size: 2rem;
+}
+
+.packages-page .packages-empty h2 {
+    font-size: 1.4rem;
+}
+
+.packages-page .packages-empty p {
+    color: #526660;
+}
+
+.packages-page a:focus-visible,
+.packages-page button:focus-visible {
+    outline: 3px solid #bd8526;
+    outline-offset: 3px;
+}
+
+.packages-page.packages-form-page {
+    max-width: 52rem;
+    margin: 0 auto;
+}
+
+.packages-page .packages-panel .form-label {
+    color: #183e3a;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.packages-page .packages-panel .form-control {
+    min-height: 3rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid #cdd8d1;
+    border-radius: 0.75rem;
+    background: #fff;
+    color: #183e3a;
+}
+
+.packages-page .packages-panel .form-control:focus {
+    border-color: #285a53;
+    box-shadow: 0 0 0 0.2rem rgba(40, 90, 83, 0.15);
+}
+
+.packages-page .packages-panel .form-control.input-validation-error {
+    border-color: #a32d32;
+}
+
+.packages-page .packages-panel .form-text {
+    color: #526660;
+}
+
+.packages-page .packages-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e1e7e3;
+}
+
+@media (max-width: 575px) {
+    .packages-page .packages-form-actions {
+        flex-direction: column-reverse;
+    }
+
+    .packages-page .packages-form-actions a,
+    .packages-page .packages-form-actions button {
+        width: 100%;
+    }
+}
+
+.packages-page .package-view-heading {
+    margin-bottom: 1.75rem;
+}
+
+.packages-page .package-view-eyebrow {
+    margin-bottom: 0.5rem;
+    color: #526660;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.packages-page .package-view-heading h1 {
+    color: #183e3a;
+    font-family: Georgia, serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.packages-page .package-view-heading > p:last-child {
+    color: #526660;
+}
+
+.packages-page .package-view-panel {
+    padding: clamp(1.25rem, 4vw, 2.5rem);
+    background: #fff;
+    border: 1px solid #e1e7e3;
+    border-radius: 1.5rem;
+    box-shadow: 0 16px 45px rgba(24, 62, 58, 0.06);
+}
+
+.packages-page .package-summary {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem 2rem;
+    margin: 0;
+}
+
+.packages-page .package-summary > div {
+    min-width: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e1e7e3;
+}
+
+.packages-page .package-summary dt {
+    margin-bottom: 0.5rem;
+    color: #526660;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.packages-page .package-summary dd {
+    margin: 0;
+    color: #183e3a;
+    font-size: 1rem;
+    font-weight: 500;
+    overflow-wrap: anywhere;
+}
+
+.packages-page .package-view-actions {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 2rem;
+}
+
+.packages-page .package-view-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #d3ddd7;
+    border-radius: 999px;
+    background: #fff;
+    color: #183e3a;
+    font: inherit;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.packages-page .package-view-button:hover {
+    background: #f5f1e9;
+    color: #183e3a !important;
+}
+
+.packages-page .package-view-button-primary {
+    border-color: #285a53;
+    background: #285a53;
+    color: #fff;
+}
+
+.packages-page .package-view-button-primary:hover {
+    background: #183e3a;
+    color: #fff !important;
+}
+
+.packages-page .package-view-button-danger {
+    border-color: #a83232;
+    background: #a83232;
+    color: #fff;
+}
+
+.packages-page .package-view-button-danger:hover {
+    background: #852727;
+    color: #fff !important;
+}
+
+.packages-page .package-view-button:focus-visible {
+    outline: 3px solid #285a53;
+    outline-offset: 3px;
+}
+
+.packages-page .package-delete-notice {
+    margin-bottom: 2rem;
+    padding: 1.25rem;
+    border: 1px solid #efd4cc;
+    border-radius: 1rem;
+    background: #fff5f1;
+    color: #7b3428;
+}
+
+.packages-page .package-delete-notice p {
+    margin: 0.5rem 0 0;
+    line-height: 1.7;
+}
+
+@media (max-width: 575px) {
+    .packages-page .package-summary {
+        grid-template-columns: 1fr;
+    }
+
+    .packages-page .package-view-actions {
+        flex-direction: column;
+    }
+
+    .packages-page .package-view-button {
+        width: 100%;
+    }
+}

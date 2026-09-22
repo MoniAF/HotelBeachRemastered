@@ -1,0 +1,42 @@
+﻿@model AppWebBeachSA.Models.Paquete
+@using System.Globalization
+
+<dl class="package-summary">
+    <div>
+        <dt>Package ID</dt>
+        <dd>@Model.ID</dd>
+    </div>
+    <div>
+        <dt>Package name</dt>
+        <dd>@Model.NombrePaquete</dd>
+    </div>
+    <div>
+        <dt>Price</dt>
+        <dd>$@Model.Precio.ToString("N2", CultureInfo.InvariantCulture)</dd>
+    </div>
+    <div>
+        <dt>Down payment</dt>
+        <dd>@Model.PorcentajePrima.ToString("0.##", CultureInfo.InvariantCulture)%</dd>
+    </div>
+    <div>
+        <dt>Month limit</dt>
+        <dd>@Model.LimiteMeses</dd>
+    </div>
+    <div>
+        <dt>Registration date</dt>
+        <dd>@Model.FechaRegistro.ToString("MMM dd, yyyy", CultureInfo.InvariantCulture)</dd>
+    </div>
+    <div>
+        <dt>Status</dt>
+        <dd>
+            @if (Model.Estado == 'A')
+            {
+                <span class="packages-status">Active</span>
+            }
+            else
+            {
+                <span class="packages-status packages-status-other">@(Model.Estado == 'I' ? "Inactive" : "Unknown")</span>
+            }
+        </dd>
+    </div>
+</dl>

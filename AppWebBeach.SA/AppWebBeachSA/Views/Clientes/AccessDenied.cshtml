@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Access denied";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <div class="card border-0 shadow-sm rounded-4">
+                <div class="card-body p-4 p-md-5 text-center">
+                    <div class="mb-3">
+                        <i class="fa-solid fa-lock fs-1 text-secondary" aria-hidden="true"></i>
+                    </div>
+
+                    <p class="text-uppercase text-secondary small fw-semibold mb-2">Error 403</p>
+                    <h1 class="h2 mb-3">Access denied</h1>
+                    <p class="text-secondary mb-4">Your account does not have permission to view this page.</p>
+
+                    <div class="d-flex flex-column flex-sm-row justify-content-center gap-2">
+                        <a class="btn btn-dark rounded-pill px-4" asp-controller="Home" asp-action="Index">Back to home</a>
+
+                        @if (User.IsInRole("Customer"))
+                        {
+                            <a class="btn btn-outline-secondary rounded-pill px-4" asp-controller="Reservaciones" asp-action="ListadoCliente">My reservations</a>
+                        }
+                        else if (User.IsInRole("Admin") || User.IsInRole("Employee"))
+                        {
+                            <a class="btn btn-outline-secondary rounded-pill px-4" asp-controller="Reservaciones" asp-action="Listado">Reservations</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

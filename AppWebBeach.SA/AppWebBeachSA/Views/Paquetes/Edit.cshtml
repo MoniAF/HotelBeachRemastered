@@ -1,0 +1,46 @@
+﻿@model AppWebBeachSA.Models.Paquete
+
+@{
+    ViewData["Title"] = "Edit package";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/css/packages.css" asp-append-version="true" />
+}
+
+<section class="packages-page packages-form-page" aria-labelledby="editTitle">
+    <div class="packages-heading">
+        <div>
+            <span class="packages-eyebrow">Hotel management · Package #@Model.ID</span>
+            <h1 id="editTitle">Edit package</h1>
+            <p>Update the package details and save your changes.</p>
+        </div>
+    </div>
+
+    <div class="packages-panel">
+        @if (TempData["Mensaje"] != null)
+        {
+            <div class="alert alert-danger" role="alert">@TempData["Mensaje"]</div>
+        }
+
+        <form asp-controller="Paquetes" asp-action="Edit" method="post">
+            <input asp-for="ID" type="hidden" />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+            <partial name="_PackageFields" model="Model" />
+
+            <div class="packages-form-actions">
+                <a asp-controller="Paquetes" asp-action="Index" class="packages-secondary">Cancel</a>
+                <button type="submit" class="packages-primary">Save changes</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

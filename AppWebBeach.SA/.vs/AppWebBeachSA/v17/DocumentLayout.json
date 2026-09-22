@@ -1,0 +1,563 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\wwwroot\\css\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\wwwroot\\css\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\clientes\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\clientes\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\reservaciones\\listadocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\reservaciones\\listadocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\controllers\\reservacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\controllers\\reservacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\controllers\\chequescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\controllers\\chequescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\models\\checkcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\models\\checkcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\empleados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\empleados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\empleados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\empleados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\viewmodels\\employeeeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\viewmodels\\employeeeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\viewmodels\\employeecreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\viewmodels\\employeecreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\empleados\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\empleados\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\empleados\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\empleados\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\clientes\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\clientes\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\clientes\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\clientes\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\viewmodels\\resetcustomerpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\viewmodels\\resetcustomerpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\viewmodels\\customerregisterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\viewmodels\\customerregisterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\clientes\\obtenerinformacionpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\clientes\\obtenerinformacionpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\viewmodels\\customereditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\viewmodels\\customereditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\reservaciones\\listado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\reservaciones\\listado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\cheques\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\cheques\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\reservaciones\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\reservaciones\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\appwebbeach.sa\\appwebbeachsa\\views\\reservaciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB7F5C1-8163-423F-B114-D1AF72D1D405}|AppWebBeachSA\\AppWebBeachSA.csproj|solutionrelative:appwebbeachsa\\views\\reservaciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "forms.css",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\wwwroot\\css\\forms.css",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\wwwroot\\css\\forms.css",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\wwwroot\\css\\forms.css",
+              "RelativeToolTip": "AppWebBeachSA\\wwwroot\\css\\forms.css",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-22T18:14:29.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CheckCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Models\\CheckCreateRequest.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Models\\CheckCreateRequest.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Models\\CheckCreateRequest.cs",
+              "RelativeToolTip": "AppWebBeachSA\\Models\\CheckCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T06:13:10.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Empleados\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Edit.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Empleados\\Edit.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowEcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-22T04:40:33.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Empleados\\Create.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Create.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Empleados\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-22T04:40:06.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "AppWebBeachSA\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAPABAAAAAAAAAAAqwAoCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:13:17.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\EmployeeEditViewModel.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\ViewModels\\EmployeeEditViewModel.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\EmployeeEditViewModel.cs",
+              "RelativeToolTip": "AppWebBeachSA\\ViewModels\\EmployeeEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:12:54.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\EmployeeCreateViewModel.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\ViewModels\\EmployeeCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\EmployeeCreateViewModel.cs",
+              "RelativeToolTip": "AppWebBeachSA\\ViewModels\\EmployeeCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:10:56.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Login.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Empleados\\Login.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Login.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Empleados\\Login.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-22T02:26:48.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Empleados\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Delete.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Empleados\\Delete.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwFQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-22T02:26:27.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Details.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Empleados\\Details.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Details.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Empleados\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwDAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-22T02:25:34.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Empleados\\Index.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Empleados\\Index.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwGQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-22T02:25:12.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Login.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Clientes\\Login.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Login.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Clientes\\Login.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-22T01:10:21.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Clientes\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\ResetPassword.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Clientes\\ResetPassword.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-22T02:02:46.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ResetCustomerPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\ResetCustomerPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\ViewModels\\ResetCustomerPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\ResetCustomerPasswordViewModel.cs",
+              "RelativeToolTip": "AppWebBeachSA\\ViewModels\\ResetCustomerPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:35:40.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE8AAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T21:55:40.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Clientes\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\ChangePassword.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Clientes\\ChangePassword.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T21:55:07.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "AppWebBeachSA\\ViewModels\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T21:48:46.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Clientes\\Create.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAUwHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T21:36:37.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerRegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\CustomerRegisterViewModel.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\ViewModels\\CustomerRegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\CustomerRegisterViewModel.cs",
+              "RelativeToolTip": "AppWebBeachSA\\ViewModels\\CustomerRegisterViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T21:35:30.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ObtenerInformacionPersona.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\ObtenerInformacionPersona.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Clientes\\ObtenerInformacionPersona.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\ObtenerInformacionPersona.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Clientes\\ObtenerInformacionPersona.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T21:20:17.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Clientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Delete.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Clientes\\Delete.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwFkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T21:09:41.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Details.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Clientes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Details.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Clientes\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDkAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T21:09:25.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\CustomerEditViewModel.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\ViewModels\\CustomerEditViewModel.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\ViewModels\\CustomerEditViewModel.cs",
+              "RelativeToolTip": "AppWebBeachSA\\ViewModels\\CustomerEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T20:59:29.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Clientes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Edit.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Clientes\\Edit.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T20:45:27.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAADwv3EAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T20:44:12.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "AppWebBeachSA\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAKMCAAAAAAAAAADwv7MCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T20:43:21.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Listado.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Reservaciones\\Listado.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Reservaciones\\Listado.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Reservaciones\\Listado.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Reservaciones\\Listado.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIgAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T20:12:39.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListadoCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Reservaciones\\ListadoCliente.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Reservaciones\\ListadoCliente.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Reservaciones\\ListadoCliente.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Reservaciones\\ListadoCliente.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAALwAAADeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T20:08:07.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Cheques\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Cheques\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Cheques\\Edit.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Cheques\\Edit.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvzMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T20:04:46.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChequesController.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Controllers\\ChequesController.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Controllers\\ChequesController.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Controllers\\ChequesController.cs",
+              "RelativeToolTip": "AppWebBeachSA\\Controllers\\ChequesController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwEcAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T20:02:18.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Reservaciones\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Reservaciones\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Reservaciones\\Delete.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Reservaciones\\Delete.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwHMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T19:50:42.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Reservaciones\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Views\\Reservaciones\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Views\\Reservaciones\\Edit.cshtml",
+              "RelativeToolTip": "AppWebBeachSA\\Views\\Reservaciones\\Edit.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv1UAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T19:45:51.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Controllers\\ReservacionesController.cs",
+              "RelativeDocumentMoniker": "AppWebBeachSA\\Controllers\\ReservacionesController.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\Controllers\\ReservacionesController.cs",
+              "RelativeToolTip": "AppWebBeachSA\\Controllers\\ReservacionesController.cs",
+              "ViewState": "AgIAAEcCAAAAAAAAAAAQwF8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T19:37:33.482Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

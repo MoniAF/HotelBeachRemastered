@@ -1,0 +1,116 @@
+﻿@model AppWebBeachSA.Models.Reservacion
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "Delete reservation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string backAction = User.IsInRole("Customer") ? "ListadoCliente" : "Listado";
+
+    string paymentMethod = Model.TipoPago switch
+    {
+        "Cheque" => "Check",
+        "Tarjeta" => "Card",
+        "Efectivo" => "Cash",
+        _ => Model.TipoPago
+    };
+
+    string status = Model.Estado switch
+    {
+        'A' => "Active",
+        'I' => "Inactive",
+        _ => Model.Estado.ToString()
+    };
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-9 col-lg-7">
+            <div class="card border-0 shadow-sm rounded-4 bg-white">
+                <div class="card-body p-4 p-md-5">
+                    <p class="text-uppercase text-secondary small mb-2">Reservation #@Model.Id</p>
+                    <h1 class="mb-3">Delete reservation</h1>
+                    <p class="text-secondary">Review the reservation before confirming its deletion.</p>
+
+                    @if (TempData["DeleteError"] is string errorMessage)
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @errorMessage
+                        </div>
+                    }
+
+                    <div class="alert alert-warning" role="alert">
+                        This will permanently delete the reservation and any associated checks. An audit record will be retained.
+                    </div>
+
+                    <dl class="row mb-0">
+                        <dt class="col-sm-5">Customer ID</dt>
+                        <dd class="col-sm-7">@Model.CedulaCliente</dd>
+
+                        <dt class="col-sm-5">Package ID</dt>
+                        <dd class="col-sm-7">@Model.IdPaquete</dd>
+
+                        <dt class="col-sm-5">Payment method</dt>
+                        <dd class="col-sm-7">@paymentMethod</dd>
+
+                        <dt class="col-sm-5">Arrival date</dt>
+                        <dd class="col-sm-7">@Model.FechaReserva.ToString("dd MMM yyyy", CultureInfo.InvariantCulture)</dd>
+
+                        <dt class="col-sm-5">Nights</dt>
+                        <dd class="col-sm-7">@Model.Duracion</dd>
+
+                        <dt class="col-sm-5">Subtotal (USD)</dt>
+                        <dd class="col-sm-7">$@Model.Subtotal.ToString("N2", CultureInfo.InvariantCulture)</dd>
+
+                        <dt class="col-sm-5">Tax (USD)</dt>
+                        <dd class="col-sm-7">$@Model.Impuesto.ToString("N2", CultureInfo.InvariantCulture)</dd>
+
+                        <dt class="col-sm-5">Discount (USD)</dt>
+                        <dd class="col-sm-7">$@Model.Descuento.ToString("N2", CultureInfo.InvariantCulture)</dd>
+
+                        <dt class="col-sm-5">Total (USD)</dt>
+                        <dd class="col-sm-7 fw-bold">$@Model.MontoTotal.ToString("N2", CultureInfo.InvariantCulture)</dd>
+
+                        <dt class="col-sm-5">Down payment (USD)</dt>
+                        <dd class="col-sm-7">$@Model.Adelanto.ToString("N2", CultureInfo.InvariantCulture)</dd>
+
+                        <dt class="col-sm-5">Monthly payment (USD)</dt>
+                        <dd class="col-sm-7">$@Model.MontoMensualidad.ToString("N2", CultureInfo.InvariantCulture)</dd>
+
+                        <dt class="col-sm-5">Status</dt>
+                        <dd class="col-sm-7">@status</dd>
+                    </dl>
+
+                    <div class="d-flex flex-wrap justify-content-between gap-3 mt-4">
+                        <a asp-controller="Reservaciones" asp-action="@backAction" class="btn btn-outline-secondary">Back to reservations</a>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteReservationModal">Delete reservation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteReservationModal" tabindex="-1" aria-labelledby="deleteReservationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title fs-5" id="deleteReservationTitle">Confirm deletion</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                Delete reservation #@Model.Id and its associated checks? This action cannot be undone.
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Keep reservation</button>
+
+                <form asp-controller="Reservaciones" asp-action="Delete" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <button type="submit" class="btn btn-danger">Confirm deletion</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

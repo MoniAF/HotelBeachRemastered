@@ -1,0 +1,80 @@
+﻿@model AppWebBeachSA.Models.Cliente
+
+@{
+    ViewData["Title"] = "Select customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/packages.css" asp-append-version="true" />
+}
+
+<section class="packages-page packages-form-page">
+    <header class="package-view-heading">
+        <p class="package-view-eyebrow">New reservation</p>
+        <h1>Select a customer</h1>
+        <p>Find the customer who will be staying with us.</p>
+    </header>
+
+    <div class="package-view-panel">
+        <form asp-controller="Reservaciones" asp-action="ConfirmarCliente" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+            <div>
+                <label for="customerId" class="form-label">Customer identification number</label>
+                <input id="customerId" name="pCedula" value="@ViewData["CustomerId"]" class="form-control" placeholder="Enter an identification number" required />
+                @Html.ValidationMessage("pCedula", null, new { @class = "text-danger" })
+            </div>
+
+            <div class="package-view-actions">
+                <button type="submit" class="package-view-button package-view-button-primary">Find customer</button>
+            </div>
+        </form>
+
+        @if (Model != null)
+        {
+            <div class="mt-4 pt-4 border-top">
+                <h2 class="h4 mb-4">Customer information</h2>
+
+                <dl class="package-summary">
+                    <div>
+                        <dt>Identification number</dt>
+                        <dd>@Model.Cedula</dd>
+                    </div>
+                    <div>
+                        <dt>Full name</dt>
+                        <dd>@Model.NombreCompleto</dd>
+                    </div>
+                    <div>
+                        <dt>Identification type</dt>
+                        <dd>@Model.TipoCedula</dd>
+                    </div>
+                    <div>
+                        <dt>Phone number</dt>
+                        <dd>@Model.Telefono</dd>
+                    </div>
+                    <div>
+                        <dt>Email address</dt>
+                        <dd>@Model.Email</dd>
+                    </div>
+                </dl>
+
+                <div class="package-view-actions">
+                    <a asp-controller="Reservaciones" asp-action="Create" class="package-view-button package-view-button-primary">Continue to reservation</a>
+                </div>
+            </div>
+        }
+        else if (ViewData["CustomerNotFound"] is true)
+        {
+            <div class="alert alert-info mt-4" role="status">
+                No customer was found with that identification number.
+            </div>
+
+            <a asp-controller="Clientes" asp-action="ObtenerInformacionPersona" class="package-view-button">Register customer</a>
+        }
+
+        <div class="package-view-actions">
+            <a asp-controller="Reservaciones" asp-action="Listado" class="package-view-button">Back to reservations</a>
+        </div>
+    </div>
+</section>

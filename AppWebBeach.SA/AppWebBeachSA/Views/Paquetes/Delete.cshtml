@@ -1,0 +1,44 @@
+﻿@model AppWebBeachSA.Models.Paquete
+
+@{
+    ViewData["Title"] = "Delete package";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/packages.css" asp-append-version="true" />
+}
+
+<section class="packages-page packages-form-page">
+    <header class="package-view-heading">
+        <p class="package-view-eyebrow">Hotel management</p>
+        <h1>Delete package</h1>
+        <p>Review the package before confirming its deletion.</p>
+    </header>
+
+    <div class="package-view-panel">
+        @if (TempData["Mensaje"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @TempData["Mensaje"]
+            </div>
+        }
+
+        <div class="package-delete-notice">
+            <strong>Are you sure you want to delete this package?</strong>
+            <p>This action cannot be undone. To keep its information, you can edit the package and change its status to Inactive.</p>
+        </div>
+
+        <partial name="_PackageSummary" model="Model" />
+
+        <form asp-controller="Paquetes" asp-action="Delete" method="post">
+            <input type="hidden" asp-for="ID" />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+            <div class="package-view-actions">
+                <a asp-controller="Paquetes" asp-action="Index" class="package-view-button">Cancel</a>
+                <button type="submit" class="package-view-button package-view-button-danger">Delete package</button>
+            </div>
+        </form>
+    </div>
+</section>

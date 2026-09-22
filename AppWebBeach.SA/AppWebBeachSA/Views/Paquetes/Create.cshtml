@@ -1,0 +1,44 @@
+﻿@model AppWebBeachSA.Models.Paquete
+
+@{
+    ViewData["Title"] = "Add package";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/css/packages.css" asp-append-version="true" />
+}
+
+<section class="packages-page packages-form-page" aria-labelledby="createTitle">
+    <div class="packages-heading">
+        <div>
+            <span class="packages-eyebrow">Hotel management</span>
+            <h1 id="createTitle">Add package</h1>
+            <p>Set up a new stay option for your guests.</p>
+        </div>
+    </div>
+
+    <div class="packages-panel">
+        @if (TempData["Mensaje"] != null)
+        {
+            <div class="alert alert-danger" role="alert">@TempData["Mensaje"]</div>
+        }
+
+        <form asp-controller="Paquetes" asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+            <partial name="_PackageFields" model="Model" />
+
+            <div class="packages-form-actions">
+                <a asp-controller="Paquetes" asp-action="Index" class="packages-secondary">Cancel</a>
+                <button type="submit" class="packages-primary">Create package</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

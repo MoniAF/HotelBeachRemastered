@@ -1,0 +1,85 @@
+﻿@model AppWebBeachSA.Models.Empleado
+
+@{
+    ViewData["Title"] = "Delete employee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/css/forms.css" asp-append-version="true" />
+}
+
+<section class="py-4" aria-labelledby="deleteEmployeeTitle">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+            <div class="card border-0 shadow rounded-4">
+                <div class="card-body p-4 p-md-5">
+                    <p class="small text-uppercase text-secondary fw-semibold mb-2">Hotel management</p>
+                    <h1 id="deleteEmployeeTitle" class="h2 mb-3">Delete employee</h1>
+
+                    <p class="text-secondary mb-4">
+                        Review the employee information before confirming deletion.
+                    </p>
+
+                    @if (TempData["EmployeeDeleteError"] is string deleteError)
+                    {
+                        <div class="alert alert-danger" role="alert">@deleteError</div>
+                    }
+
+                    <dl class="row mb-4">
+                        <dt class="col-sm-4">Employee ID</dt>
+                        <dd class="col-sm-8">@Model.ID</dd>
+
+                        <dt class="col-sm-4">Full name</dt>
+                        <dd class="col-sm-8">@Model.NombreCompleto</dd>
+
+                        <dt class="col-sm-4">Email</dt>
+                        <dd class="col-sm-8 text-break">@Model.Email</dd>
+
+                        <dt class="col-sm-4">Role</dt>
+                        <dd class="col-sm-8">@(Model.TipoUsuario == 1 ? "Administrator" : Model.TipoUsuario == 2 ? "Employee" : "Unknown")</dd>
+
+                        <dt class="col-sm-4">Registration date</dt>
+                        <dd class="col-sm-8">@Model.FechaRegistro.ToString("yyyy-MM-dd HH:mm")</dd>
+
+                        <dt class="col-sm-4">Status</dt>
+                        <dd class="col-sm-8">@(Model.Estado == 'A' ? "Active" : Model.Estado == 'I' ? "Inactive" : "Unknown")</dd>
+                    </dl>
+
+                    <div class="d-flex justify-content-between gap-3">
+                        <a asp-controller="Empleados" asp-action="Index" class="btn boton">Back</a>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteEmployeeModal">
+                            Delete employee
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="deleteEmployeeModal" tabindex="-1" aria-labelledby="deleteEmployeeModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="deleteEmployeeModalTitle" class="modal-title fs-5">Confirm deletion</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <p>Are you sure you want to delete the account for <strong>@Model.NombreCompleto</strong>?</p>
+                <p class="mb-0">This action cannot be undone.</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+
+                <form asp-controller="Empleados" asp-action="Delete" asp-route-id="@Model.ID" method="post">
+                    <input type="hidden" name="id" value="@Model.ID" />
+                    <button type="submit" class="btn btn-danger">Confirm deletion</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

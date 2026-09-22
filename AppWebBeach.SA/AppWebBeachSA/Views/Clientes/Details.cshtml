@@ -1,0 +1,68 @@
+﻿@model AppWebBeachSA.Models.Cliente
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "Customer details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string status = Model.Estado switch
+    {
+        'A' => "Active",
+        'I' => "Inactive",
+        _ => "Unknown"
+    };
+
+    string statusClass = Model.Estado == 'A' ? "bg-success" : "bg-secondary";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+            <div class="card border-0 shadow-sm rounded-4 bg-white">
+                <div class="card-body p-4 p-md-5">
+                    <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+                        <div>
+                            <p class="text-uppercase text-secondary small mb-2">Customer profile</p>
+                            <h1 class="mb-2">@Model.NombreCompleto</h1>
+                            <p class="text-secondary mb-0">ID: @Model.Cedula</p>
+                        </div>
+
+                        <span class="badge rounded-pill @statusClass">@status</span>
+                    </div>
+
+                    <hr class="mb-4" />
+
+                    <dl class="row mb-0">
+                        <dt class="col-sm-4">Identification type</dt>
+                        <dd class="col-sm-8 mb-3">@Model.TipoCedula</dd>
+
+                        <dt class="col-sm-4">Phone number</dt>
+                        <dd class="col-sm-8 mb-3">@(string.IsNullOrWhiteSpace(Model.Telefono) ? "—" : Model.Telefono)</dd>
+
+                        <dt class="col-sm-4">Email address</dt>
+                        <dd class="col-sm-8 mb-3 text-break">@(string.IsNullOrWhiteSpace(Model.Email) ? "—" : Model.Email)</dd>
+
+                        <dt class="col-sm-4">Address</dt>
+                        <dd class="col-sm-8 mb-3 text-break">@(string.IsNullOrWhiteSpace(Model.Direccion) ? "—" : Model.Direccion)</dd>
+
+                        <dt class="col-sm-4">Registered on</dt>
+                        <dd class="col-sm-8 mb-3">@Model.FechaRegistro.ToString("dd MMM yyyy", CultureInfo.InvariantCulture)</dd>
+                    </dl>
+
+                    <div class="d-flex flex-wrap justify-content-between gap-3 mt-4">
+                        <a asp-controller="Clientes" asp-action="Index" class="btn btn-outline-secondary">Back to customers</a>
+
+                        <div class="d-flex gap-2">
+                            @if (User.IsInRole("Admin") || User.IsInRole("Employee"))
+                            {
+                                <a asp-controller="Clientes" asp-action="ResetPassword" asp-route-id="@Model.Cedula" class="btn boton">Reset password</a>
+                            }
+                            <a asp-action="Edit" asp-route-id="@Model.Cedula" class="btn btn-dark">Edit profile</a>
+                            <a asp-action="Delete" asp-route-id="@Model.Cedula" class="btn btn-outline-danger">Delete customer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

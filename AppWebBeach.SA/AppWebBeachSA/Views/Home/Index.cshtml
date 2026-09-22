@@ -1,0 +1,132 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+}
+
+<div class="hotel-home">
+    <section class="home-hero" aria-labelledby="homeTitle">
+        <div class="home-hero-content">
+            <span class="home-eyebrow">Welcome to Hotel Beach</span>
+            <h1 id="homeTitle">Make room for a little getaway.</h1>
+            <p>Slow down, settle in and find the stay that suits you.</p>
+
+            <div class="home-actions">
+                @if (User.IsInRole("Admin") || User.IsInRole("Employee"))
+                {
+                    <a asp-controller="Reservaciones" asp-action="Listado" class="home-button home-button-light">Manage reservations <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                }
+                else if (User.IsInRole("Customer"))
+                {
+                    <a asp-controller="Reservaciones" asp-action="ConfirmarCliente" class="home-button home-button-light">Book your stay <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                }
+                else
+                {
+                    <a asp-controller="Clientes" asp-action="Login" class="home-button home-button-light">Sign in to book <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                }
+
+                <a href="#stay-options" class="home-button home-button-outline">Explore packages</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="amenitiesTitle">
+        <div class="home-section-heading">
+            <span class="home-eyebrow">Comfort comes naturally</span>
+            <h2 id="amenitiesTitle">The details that make your stay.</h2>
+            <p>Everyday essentials and space to unwind, all in one place.</p>
+        </div>
+
+        <ul class="home-amenities">
+            <li>
+                <img src="~/images/air-conditioner_svgrepo.com.svg" alt="" width="40" height="40" />
+                <span>Air conditioning</span>
+            </li>
+            <li>
+                <img src="~/images/wifi_svgrepo.com.svg" alt="" width="40" height="40" />
+                <span>Wi-Fi</span>
+            </li>
+            <li>
+                <img src="~/images/security-camera_svgrepo.com.svg" alt="" width="40" height="40" />
+                <span>Security</span>
+            </li>
+            <li>
+                <img src="~/images/pool-stairs_svgrepo.com.svg" alt="" width="40" height="40" />
+                <span>Swimming pools</span>
+            </li>
+            <li>
+                <img src="~/images/drinks-holiday-sea-sky-travel-vacation-2_svgrepo.com.svg" alt="" width="40" height="40" />
+                <span>Bar</span>
+            </li>
+            <li>
+                <img src="~/images/food-dinner_svgrepo.com.svg" alt="" width="40" height="40" />
+                <span>Restaurants</span>
+            </li>
+        </ul>
+    </section>
+
+    <section id="stay-options" class="home-section home-packages-section" aria-labelledby="packagesTitle">
+        <div class="home-section-heading">
+            <span class="home-eyebrow">Your stay, your way</span>
+            <h2 id="packagesTitle">Find your kind of escape.</h2>
+            <p>Compare our packages and choose your next stay.</p>
+        </div>
+
+        <div class="home-packages">
+            <article class="home-package">
+                <img src="~/images/sauna.webp" alt="Hotel wellness facilities" class="home-package-image" loading="lazy" />
+
+                <div class="home-package-content">
+                    <span class="home-package-category">The complete experience</span>
+                    <h3>All-inclusive</h3>
+                    <div class="home-package-price">
+                        <strong>$450</strong>
+                        <span>per person / night</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="home-package">
+                <img src="~/images/almuerzo.webp" alt="A meal served at the hotel" class="home-package-image" loading="lazy" />
+
+                <div class="home-package-content">
+                    <span class="home-package-category">A taste of your getaway</span>
+                    <h3>Dining</h3>
+                    <div class="home-package-price">
+                        <strong>$275</strong>
+                        <span>per person / night</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="home-package">
+                <img src="~/images/cama.webp" alt="A hotel guest room" class="home-package-image" loading="lazy" />
+
+                <div class="home-package-content">
+                    <span class="home-package-category">Space to slow down</span>
+                    <h3>Accommodation</h3>
+                    <div class="home-package-price">
+                        <strong>$210</strong>
+                        <span>per person / night</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    @if (User.Identity?.IsAuthenticated != true)
+    {
+        <section class="home-signup" aria-labelledby="signupTitle">
+            <div>
+                <h2 id="signupTitle">Your next stay starts here.</h2>
+                <p>Create an account to book and manage your reservations.</p>
+            </div>
+
+            <a asp-controller="Clientes" asp-action="ObtenerInformacionPersona" class="home-button home-button-dark">Create an account <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </section>
+    }
+</div>

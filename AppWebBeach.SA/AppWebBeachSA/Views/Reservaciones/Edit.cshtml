@@ -1,0 +1,86 @@
+﻿@model AppWebBeachSA.Models.Reservacion
+
+@{
+    ViewData["Title"] = "Edit reservation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string backAction = User.IsInRole("Customer") ? "ListadoCliente" : "Listado";
+    var packages = ViewBag.ListaPaquetes as IEnumerable<AppWebBeachSA.Models.Paquete> ?? Enumerable.Empty<AppWebBeachSA.Models.Paquete>();
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-9 col-lg-7">
+            <div class="card border-0 shadow-sm rounded-4 bg-white">
+                <div class="card-body p-4 p-md-5">
+                    <p class="text-uppercase text-secondary small mb-2">Reservation #@Model.Id</p>
+                    <h1 class="mb-3">Edit your reservation</h1>
+                    <p class="text-secondary mb-4">Update your stay details. Your total will be recalculated when you save.</p>
+
+                    <form asp-controller="Reservaciones" asp-action="Edit" method="post">
+                        <input type="hidden" asp-for="Id" />
+
+                        <div asp-validation-summary="All" class="text-danger mb-3" role="alert"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="CedulaCliente" class="form-label">Customer ID</label>
+                            <input asp-for="CedulaCliente" class="form-control" readonly />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="IdPaquete" class="form-label">Package</label>
+                            <select asp-for="IdPaquete" class="form-select">
+                                <option value="">Select a package</option>
+
+                                @foreach (var package in packages)
+                                {
+                                    if (package.Estado == 'A' || package.ID == Model.IdPaquete)
+                                    {
+                                        <option value="@package.ID">@package.NombrePaquete@(package.Estado == 'A' ? "" : " (inactive)")</option>
+                                    }
+                                }
+                            </select>
+                            <span asp-validation-for="IdPaquete" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="TipoPago" class="form-label">Payment method</label>
+                            <select asp-for="TipoPago" class="form-select">
+                                <option value="">Select a payment method</option>
+                                <option value="Cheque">Check</option>
+                                <option value="Tarjeta">Card</option>
+                                <option value="Efectivo">Cash</option>
+                            </select>
+                            <span asp-validation-for="TipoPago" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-7 mb-3">
+                                <label asp-for="FechaReserva" class="form-label">Arrival date</label>
+                                <input asp-for="FechaReserva" asp-format="{0:yyyy-MM-dd}" type="date" class="form-control" required />
+                                <span asp-validation-for="FechaReserva" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-5 mb-3">
+                                <label asp-for="Duracion" class="form-label">Nights</label>
+                                <input asp-for="Duracion" type="number" min="1" step="1" class="form-control" required />
+                                <span asp-validation-for="Duracion" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-wrap justify-content-between gap-3 mt-4">
+                            <a asp-controller="Reservaciones" asp-action="@backAction" class="btn btn-outline-secondary">Cancel</a>
+                            <button type="submit" class="btn btn-dark">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

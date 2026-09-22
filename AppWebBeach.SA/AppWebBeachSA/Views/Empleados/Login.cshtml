@@ -1,0 +1,76 @@
+﻿@model AppWebBeachSA.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Staff sign in";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+}
+
+<section class="py-4 py-md-5" aria-labelledby="loginTitle">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-7 col-lg-5">
+            <div class="card border-0 shadow-lg rounded-4">
+                <div class="card-body p-4 p-md-5">
+                    <div class="text-center mb-4">
+                        <p class="small text-uppercase text-secondary fw-semibold mb-2">Hotel Beach · Staff portal</p>
+                        <h1 id="loginTitle" class="h2 mb-2">Staff sign in</h1>
+                        <p class="text-secondary mb-0">Access your hotel management tools.</p>
+                    </div>
+
+                    @if (TempData["Mensaje"] != null)
+                    {
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            @TempData["Mensaje"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    @if (TempData["MensajeSesion"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @TempData["MensajeSesion"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <form asp-controller="Empleados" asp-action="Login" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label fw-medium">Email</label>
+                            <input asp-for="Email" type="email" class="form-control form-control-lg rounded-3" autocomplete="username" placeholder="you@example.com" aria-describedby="emailError" />
+                            <span asp-validation-for="Email" id="emailError" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Password" class="form-label fw-medium">Password</label>
+                            <input asp-for="Password" type="password" class="form-control form-control-lg rounded-3" autocomplete="current-password" aria-describedby="passwordError" />
+                            <span asp-validation-for="Password" id="passwordError" class="text-danger small"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-dark btn-lg rounded-pill w-100">Sign in</button>
+                    </form>
+
+                    <p class="text-center text-secondary small mt-4 mb-0">For authorized hotel staff only.</p>
+
+                    <hr class="my-4" />
+
+                    <div class="text-center">
+                        <a asp-controller="Clientes" asp-action="Login" class="small text-decoration-underline">Back to customer sign in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

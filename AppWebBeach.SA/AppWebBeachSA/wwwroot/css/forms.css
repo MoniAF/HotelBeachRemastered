@@ -1,0 +1,111 @@
+﻿.bg-cliente {
+    background-image: url('../images/photo-five.jpg');
+    background-size: cover;
+}
+
+.bg-reserva {
+    background-image: url('../images/photo-three.jpg');
+    background-size: cover;
+}
+
+.bg-paquete {
+    background-image: url('../images/photo-seven.jpg');
+    background-size: cover;
+}
+
+.bg-empleado {
+    background-image: url('../images/photo-six.jpg');
+    background-size: cover;
+}
+
+.bg-cCliente {
+    background-image: url('../images/photo-four.jpg');
+    background-size: cover;
+}
+
+
+.bg-color {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 1.5rem;
+    padding: 20px;
+    margin-top: 132px;
+    box-shadow: 0px 9px 58px 9px rgba(0,0,0,0.1);
+}
+
+.align-text {
+    vertical-align: middle;
+}
+
+.boton {
+    border: 1px solid black;
+    border-radius: 50px;
+    background: none;
+    padding: 5px 20px;
+    cursor: pointer;
+   
+}
+
+.boton:hover {
+    border-color: darkcyan;
+    background: darkcyan;
+    font-weight: 400;
+    color: white !important;
+}
+
+.input {
+    border-radius: 50px;
+}
+
+.password-card {
+    width: 100%;
+    max-width: 520px;
+    min-width: 0;
+    padding: clamp(20px, 4vw, 32px);
+    margin-bottom: 32px;
+    background: #fff;
+    border: 1px solid #e1e7e3;
+    border-radius: 24px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+.password-card .validation-summary-errors {
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    background: #fff2f2;
+    border-radius: 12px;
+    overflow-wrap: anywhere;
+}
+
+.password-card .validation-summary-errors ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.password-card .field-validation-error {
+    display: block;
+    margin-top: 6px;
+    overflow-wrap: anywhere;
+}
+
+.password-card .control-label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.password-card .password-save {
+    background: #007777;
+    border-color: #007777;
+    color: #fff;
+}
+
+.password-card .password-save:hover {
+    background: #005f5f;
+    border-color: #005f5f;
+}
+
+@media only screen and (min-width: 768px) {
+    .bg-color {
+        width: 90rem;
+        margin-left: -5rem;
+    }
+}

@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "About us";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/css/about.css" asp-append-version="true" />
+}
+
+<div class="hotel-about">
+    <section class="about-intro" aria-labelledby="aboutTitle">
+        <div class="about-intro-content">
+            <span class="about-eyebrow">A closer look at Hotel Beach</span>
+            <h1 id="aboutTitle">A place to pause.<br />A stay to remember.</h1>
+            <p>Welcome to Hotel Beach, where the sea sets the pace and there is room to unwind.</p>
+            <p>From comfortable rooms to shared meals and quiet moments by the water, discover the spaces that make up your getaway.</p>
+            <a asp-controller="Home" asp-action="Index" asp-fragment="stay-options" class="about-button">Explore our packages <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="about-intro-image">
+            <img src="~/images/photo-two.jpg" alt="A view of Hotel Beach and its surroundings" />
+        </div>
+    </section>
+
+    <section class="about-services" aria-labelledby="servicesTitle">
+        <div class="about-section-heading">
+            <span class="about-eyebrow">Enjoy your time here</span>
+            <h2 id="servicesTitle">Something for every kind of stay.</h2>
+            <p>Discover our accommodation, dining and spaces for relaxation and celebration.</p>
+        </div>
+
+        <div class="about-services-grid">
+            <article class="about-service">
+                <span class="about-service-icon" aria-hidden="true"><i class="fa-solid fa-bed"></i></span>
+                <h3>Rooms & suites</h3>
+                <p>Choose from comfortable, modern rooms and suites for your stay.</p>
+            </article>
+
+            <article class="about-service">
+                <span class="about-service-icon" aria-hidden="true"><i class="fa-solid fa-utensils"></i></span>
+                <h3>Dining</h3>
+                <p>Explore local flavors and international dishes at our restaurants.</p>
+            </article>
+
+            <article class="about-service">
+                <span class="about-service-icon" aria-hidden="true"><i class="fa-solid fa-water-ladder"></i></span>
+                <h3>Swimming pools</h3>
+                <p>Enjoy a refreshing swim or take a quiet break beside the pool.</p>
+            </article>
+
+            <article class="about-service">
+                <span class="about-service-icon" aria-hidden="true"><i class="fa-solid fa-umbrella-beach"></i></span>
+                <h3>Private beaches</h3>
+                <p>Spend time by the sea, enjoy water activities or simply relax on the shore.</p>
+            </article>
+
+            <article class="about-service">
+                <span class="about-service-icon" aria-hidden="true"><i class="fa-solid fa-spa"></i></span>
+                <h3>Wellness</h3>
+                <p>Make time for yourself with massages, treatments and yoga sessions.</p>
+            </article>
+
+            <article class="about-service">
+                <span class="about-service-icon" aria-hidden="true"><i class="fa-solid fa-calendar-days"></i></span>
+                <h3>Events & celebrations</h3>
+                <p>Bring people together for meetings, weddings and special occasions in our event spaces.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="about-closing" aria-labelledby="closingTitle">
+        <span class="about-eyebrow">See you at Hotel Beach</span>
+        <h2 id="closingTitle">Your next chapter starts with a getaway.</h2>
+        <p>Find the package that fits your plans.</p>
+        <a asp-controller="Home" asp-action="Index" asp-fragment="stay-options" class="about-button">Find your stay <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+    </section>
+</div>

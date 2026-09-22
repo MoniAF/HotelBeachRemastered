@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Find customer information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string customerId = ViewData["CustomerId"] as string ?? "";
+    bool isStaff = User.IsInRole("Admin") || User.IsInRole("Employee");
+    string backController = isStaff ? "Clientes" : "Home";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <div class="card border-0 shadow-sm rounded-4 bg-white">
+                <div class="card-body p-4 p-md-5">
+                    <p class="text-uppercase text-secondary small mb-2">Customer registration</p>
+                    <h1 class="mb-3">Find your information</h1>
+                    <p class="text-secondary mb-4">
+                        Enter your Costa Rican national identification number to look up the information for your registration.
+                    </p>
+
+                    <form asp-controller="Clientes" asp-action="ObtenerInformacionPersona" method="post">
+                        <div asp-validation-summary="All" class="text-danger mb-3" role="alert"></div>
+
+                        <div class="mb-4">
+                            <label for="cedula" class="form-label">National ID number</label>
+                            <input type="text" id="cedula" name="cedula" value="@customerId" class="form-control" inputmode="numeric" pattern="[0-9]{9}" minlength="9" maxlength="9" placeholder="123456789" aria-describedby="customerIdHelp" required />
+
+                            <div id="customerIdHelp" class="form-text">
+                                Enter 9 digits without spaces or hyphens.
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-wrap justify-content-between gap-3">
+                            <a asp-controller="@backController" asp-action="Index" class="btn btn-outline-secondary">Back</a>
+
+                            <button type="submit" class="btn btn-dark">
+                                Find information
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,90 @@
+﻿@model AppWebBeachSA.Models.Cliente
+
+@{
+    ViewData["Title"] = "Delete customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string status = Model.Estado switch
+    {
+        'A' => "Active",
+        'I' => "Inactive",
+        _ => "Unknown"
+    };
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-9 col-lg-7">
+            <div class="card border-0 shadow-sm rounded-4 bg-white">
+                <div class="card-body p-4 p-md-5">
+                    <p class="text-uppercase text-secondary small mb-2">Customer management</p>
+                    <h1 class="mb-3">Delete customer</h1>
+                    <p class="text-secondary mb-4">Review the account before confirming its deletion.</p>
+
+                    @if (TempData["CustomerDeleteError"] is string errorMessage)
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @errorMessage
+                        </div>
+                    }
+
+                    <div class="alert alert-warning" role="alert">
+                        This permanently deletes the customer account. Customers with reservations cannot be deleted. An audit record will be retained.
+                    </div>
+
+                    <dl class="row mb-0">
+                        <dt class="col-sm-4">Customer ID</dt>
+                        <dd class="col-sm-8 mb-3">@Model.Cedula</dd>
+
+                        <dt class="col-sm-4">Identification type</dt>
+                        <dd class="col-sm-8 mb-3">@Model.TipoCedula</dd>
+
+                        <dt class="col-sm-4">Full name</dt>
+                        <dd class="col-sm-8 mb-3">@Model.NombreCompleto</dd>
+
+                        <dt class="col-sm-4">Phone number</dt>
+                        <dd class="col-sm-8 mb-3">@Model.Telefono</dd>
+
+                        <dt class="col-sm-44">Email address</dt>
+                        <dd class="col-sm-8 mb-3 text-break">@Model.Email</dd>
+
+                        <dt class="col-sm-4">Address</dt>
+                        <dd class="col-sm-8 mb-3 text-break">@Model.Direccion</dd>
+
+                        <dt class="col-sm-4">Status</dt>
+                        <dd class="col-sm-8 mb-3">@status</dd>
+                    </dl>
+
+                    <div class="d-flex flex-wrap justify-content-between gap-3 mt-4">
+                        <a asp-action="Index" class="btn btn-outline-secondary">Back to customers</a>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteCustomerModal">Delete customer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteCustomerModal" tabindex="-1" aria-labelledby="deleteCustomerTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title fs-5" id="deleteCustomerTitle">Confirm deletion</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                Delete the account for <strong>@Model.NombreCompleto</strong> (ID: @Model.Cedula)? This action cannot be undone.
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Keep customer</button>
+
+                <form asp-controller="Clientes" asp-action="Delete" method="post">
+                    <input type="hidden" name="id" value="@Model.Cedula" />
+                    <button type="submit" class="btn btn-danger">Confirm deletion</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,86 @@
+﻿@model AppWebBeachSA.ViewModels.EmployeeEditViewModel
+
+@{
+    ViewData["Title"] = "Edit employee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/css/forms.css" asp-append-version="true" />
+}
+
+<section class="py-4" aria-labelledby="editEmployeeTitle">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-9 col-lg-7">
+            <div class="card border-0 shadow rounded-4">
+                <div class="card-body p-4 p-md-5">
+                    <p class="small text-uppercase text-secondary fw-semibold mb-2">Hotel management</p>
+                    <h1 id="editEmployeeTitle" class="h2 mb-2">Edit employee</h1>
+                    <p class="text-secondary mb-4">Update the employee's account information.</p>
+
+                    <form asp-controller="Empleados" asp-action="Edit" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="ID" class="form-label">Employee ID</label>
+                            <input asp-for="ID" class="form-control" readonly />
+                            <span asp-validation-for="ID" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="NombreCompleto" class="form-label">Full name</label>
+                            <input asp-for="NombreCompleto" class="form-control" maxlength="150" autocomplete="name" />
+                            <span asp-validation-for="NombreCompleto" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" type="email" class="form-control" maxlength="50" autocomplete="off" />
+                            <span asp-validation-for="Email" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Estado" class="form-label">Status</label>
+                            <select asp-for="Estado" class="form-select">
+                                <option value="A">Active</option>
+                                <option value="I">Inactive</option>
+                            </select>
+                            <span asp-validation-for="Estado" class="text-danger small"></span>
+                        </div>
+
+                        <fieldset class="border rounded-3 p-3 mb-4">
+                            <legend class="float-none w-auto px-2 fs-6">Change password</legend>
+                            <p class="small text-secondary">Leave both fields empty to keep the current password.</p>
+
+                            <div class="mb-3">
+                                <label asp-for="NewPassword" class="form-label">New password</label>
+                                <input asp-for="NewPassword" type="password" class="form-control" autocomplete="new-password" aria-describedby="newPasswordHelp" />
+                                <div id="newPasswordHelp" class="form-text">Use between 12 and 128 characters.</div>
+                                <span asp-validation-for="NewPassword" class="text-danger small"></span>
+                            </div>
+
+                            <div>
+                                <label asp-for="ConfirmPassword" class="form-label">Confirm new password</label>
+                                <input asp-for="ConfirmPassword" type="password" class="form-control" autocomplete="new-password" />
+                                <span asp-validation-for="ConfirmPassword" class="text-danger small"></span>
+                            </div>
+                        </fieldset>
+
+                        <div class="d-flex justify-content-between gap-3">
+                            <a asp-controller="Empleados" asp-action="Index" class="btn boton">Back</a>
+                            <button type="submit" class="btn btn-dark">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

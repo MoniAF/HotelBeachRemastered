@@ -1,0 +1,127 @@
+﻿@model IEnumerable<AppWebBeachSA.Models.Paquete>
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "Packages";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string search = ViewData["Search"]?.ToString() ?? "";
+    string loadError = ViewData["LoadError"]?.ToString();
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/css/packages.css" asp-append-version="true" />
+}
+
+<section class="packages-page" aria-labelledby="packagesTitle">
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["Mensaje"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["Mensaje"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="packages-heading">
+        <div>
+            <span class="packages-eyebrow">Hotel management</span>
+            <h1 id="packagesTitle">Packages</h1>
+            <p>Manage your stay options and pricing.</p>
+        </div>
+
+        <a asp-controller="Paquetes" asp-action="Create" class="packages-primary">
+            <i class="fa-solid fa-plus" aria-hidden="true"></i> Add package
+        </a>
+    </div>
+
+    <div class="packages-panel">
+        <form asp-controller="Paquetes" asp-action="Index" method="get" class="packages-search" role="search">
+            <div class="packages-search-field">
+                <label for="packageSearch" class="form-label">Search by name</label>
+                <input type="search" id="packageSearch" name="buscar" value="@search" class="form-control" placeholder="Enter a package name" />
+            </div>
+
+            <button type="submit" class="packages-primary">Search</button>
+
+            @if (!string.IsNullOrEmpty(search))
+            {
+                <a asp-controller="Paquetes" asp-action="Index" class="packages-secondary">Clear</a>
+            }
+        </form>
+
+        @if (loadError != null)
+        {
+            <div class="alert alert-danger mb-0" role="alert">
+                @loadError
+                <a asp-controller="Paquetes" asp-action="Index" asp-route-buscar="@search" class="alert-link">Try again</a>
+            </div>
+        }
+        else if (!Model.Any())
+        {
+            <div class="packages-empty">
+                <i class="fa-solid fa-box-open" aria-hidden="true"></i>
+                <h2>@(string.IsNullOrEmpty(search) ? "No packages yet" : "No matching packages")</h2>
+                <p>@(string.IsNullOrEmpty(search) ? "Add your first package to get started." : "Try a different name or clear your search.")</p>
+            </div>
+        }
+        else
+        {
+            <p class="packages-count">@Model.Count() package(s) found</p>
+
+            <div class="table-responsive">
+                <table class="table align-middle packages-table">
+                    <caption class="visually-hidden">Packages and management actions</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Package</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Down payment</th>
+                            <th scope="col">Month limit</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row">
+                                    <span class="packages-name">@item.NombrePaquete</span>
+                                    <span class="packages-id">ID: @item.ID</span>
+                                </th>
+                                <td class="text-nowrap">$@item.Precio.ToString("N2", CultureInfo.InvariantCulture)</td>
+                                <td>@item.PorcentajePrima.ToString("0.##", CultureInfo.InvariantCulture)%</td>
+                                <td>@item.LimiteMeses</td>
+                                <td>
+                                    @if (item.Estado == 'A')
+                                    {
+                                        <span class="packages-status">Active</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="packages-status packages-status-other">@(item.Estado == 'A' ? "Active" : item.Estado == 'I' ? "Inactive" : "Unknown")</span>
+                                    }
+                                </td>
+                                <td>
+                                    <div class="packages-actions">
+                                        <a asp-action="Details" asp-route-id="@item.ID" aria-label="View details for @item.NombrePaquete">Details</a>
+                                        <a asp-action="Edit" asp-route-id="@item.ID" aria-label="Edit @item.NombrePaquete">Edit</a>
+                                        <a asp-action="Delete" asp-route-id="@item.ID" class="packages-delete" aria-label="Review deletion of @item.NombrePaquete">Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</section>

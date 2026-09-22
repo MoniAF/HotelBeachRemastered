@@ -1,0 +1,89 @@
+﻿@model AppWebBeachSA.Models.Reservacion
+
+@{
+    ViewData["Title"] = "New reservation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/packages.css" asp-append-version="true" />
+}
+
+<section class="packages-page packages-form-page">
+    <header class="package-view-heading">
+        <p class="package-view-eyebrow">New reservation</p>
+        <h1>Complete your reservation</h1>
+        <p>Select the package, payment method, date, and length of your stay.</p>
+    </header>
+
+    <div class="package-view-panel">
+        <form asp-controller="Reservaciones" asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+            <div class="mb-3">
+                <label asp-for="CedulaCliente" class="form-label">Customer identification number</label>
+                <input asp-for="CedulaCliente" class="form-control" readonly />
+                <span asp-validation-for="CedulaCliente" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="IdPaquete" class="form-label">Package</label>
+                <select asp-for="IdPaquete" class="form-select" required>
+                    <option value="">Select a package</option>
+
+                    @foreach (var paquete in ViewBag.ListaPaquetes)
+                    {
+                        if (paquete.Estado == 'A')
+                        {
+                            <option value="@paquete.ID">
+                                @paquete.NombrePaquete
+                            </option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="IdPaquete" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="TipoPago" class="form-label">Payment method</label>
+                <select asp-for="TipoPago" class="form-select" required>
+                    <option value="">Select a payment method</option>
+                    <option value="Cheque">Cheque</option>
+                    <option value="Tarjeta">Card</option>
+                    <option value="Efectivo">Cash</option>
+                </select>
+                <span asp-validation-for="TipoPago" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="FechaReserva" class="form-label">Reservation date</label>
+                <input asp-for="FechaReserva" type="date" class="form-control" min="@DateTime.Today.ToString("yyyy-MM-dd")" required />
+                <span asp-validation-for="FechaReserva" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Duracion" class="form-label">Stay length in nights</label>
+                <input asp-for="Duracion" type="number" class="form-control" min="1" step="1" required />
+                <span asp-validation-for="Duracion" class="text-danger"></span>
+            </div>
+
+            <div class="package-view-actions">
+                <a asp-controller="Home" asp-action="Index" class="package-view-button">
+                    Cancel
+                </a>
+
+                <button type="submit" class="package-view-button package-view-button-primary">
+                    Create reservation
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

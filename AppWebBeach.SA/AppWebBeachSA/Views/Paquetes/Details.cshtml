@@ -1,0 +1,27 @@
+﻿@model AppWebBeachSA.Models.Paquete
+
+@{
+    ViewData["Title"] = "Package details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/packages.css" asp-append-version="true" />
+}
+
+<section class="packages-page packages-form-page">
+    <header class="package-view-heading">
+        <p class="package-view-eyebrow">Hotel management</p>
+        <h1>Package details</h1>
+        <p>Review the information for @Model.NombrePaquete.</p>
+    </header>
+
+    <div class="package-view-panel">
+        <partial name="_PackageSummary" model="Model" />
+
+        <div class="package-view-actions">
+            <a asp-controller="Paquetes" asp-action="Index" class="package-view-button">Back to packages</a>
+            <a asp-controller="Paquetes" asp-action="Edit" asp-route-id="@Model.ID" class="package-view-button package-view-button-primary">Edit package</a>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\models\\reservationpdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\models\\reservationpdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\controllers\\reservacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\controllers\\reservacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\controllers\\chequescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\controllers\\chequescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\controllers\\paquetescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\controllers\\paquetescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\viewmodels\\checkcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\viewmodels\\checkcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\services\\autorizacionservicescliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\services\\autorizacionservicescliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\dtos\\employeeeditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\dtos\\employeeeditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\dtos\\employeecreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\dtos\\employeecreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\models\\empleadoauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\models\\empleadoauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\services\\autorizacionservicesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\services\\autorizacionservicesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\dtos\\resetcustomerpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\dtos\\resetcustomerpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\dtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\dtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\dtos\\customerregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\dtos\\customerregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\dtos\\customereditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\dtos\\customereditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\models\\clienteauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\models\\clienteauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\models\\cheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\models\\cheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\models\\reservacionauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\models\\reservacionauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\models\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\models\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\models\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\models\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|c:\\users\\artav\\onedrive\\escritorio\\gitprojects\\hotelbeach.net\\api-beach.sa\\apihotelbeach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E7F4D2B-C9E4-491C-A2C0-B2F4BC84492D}|APIHotelBeach\\APIHotelBeach.csproj|solutionrelative:apihotelbeach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservationPdfGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\ReservationPdfGenerator.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Models\\ReservationPdfGenerator.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\ReservationPdfGenerator.cs",
+              "RelativeToolTip": "APIHotelBeach\\Models\\ReservationPdfGenerator.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDsAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T06:15:56.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\ViewModels\\CheckCreateRequest.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\ViewModels\\CheckCreateRequest.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\ViewModels\\CheckCreateRequest.cs",
+              "RelativeToolTip": "APIHotelBeach\\ViewModels\\CheckCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T06:14:57.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeEditRequest.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\EmployeeEditRequest.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\DTOs\\EmployeeEditRequest.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\EmployeeEditRequest.cs",
+              "RelativeToolTip": "APIHotelBeach\\DTOs\\EmployeeEditRequest.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:08:47.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\EmployeeCreateRequest.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\DTOs\\EmployeeCreateRequest.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\EmployeeCreateRequest.cs",
+              "RelativeToolTip": "APIHotelBeach\\DTOs\\EmployeeCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:08:15.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\Empleado.cs",
+              "RelativeToolTip": "APIHotelBeach\\Models\\Empleado.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:07:27.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmpleadoAuditoria.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\EmpleadoAuditoria.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Models\\EmpleadoAuditoria.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\EmpleadoAuditoria.cs",
+              "RelativeToolTip": "APIHotelBeach\\Models\\EmpleadoAuditoria.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA7wCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:07:12.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResetCustomerPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\ResetCustomerPasswordRequest.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\DTOs\\ResetCustomerPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\ResetCustomerPasswordRequest.cs",
+              "RelativeToolTip": "APIHotelBeach\\DTOs\\ResetCustomerPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:14:04.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChangePasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\ChangePasswordRequest.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\DTOs\\ChangePasswordRequest.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\ChangePasswordRequest.cs",
+              "RelativeToolTip": "APIHotelBeach\\DTOs\\ChangePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T21:44:19.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerRegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\CustomerRegisterRequest.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\DTOs\\CustomerRegisterRequest.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\CustomerRegisterRequest.cs",
+              "RelativeToolTip": "APIHotelBeach\\DTOs\\CustomerRegisterRequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T21:23:30.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerEditRequest.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\CustomerEditRequest.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\DTOs\\CustomerEditRequest.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\CustomerEditRequest.cs",
+              "RelativeToolTip": "APIHotelBeach\\DTOs\\CustomerEditRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T20:55:51.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClienteAuditoria.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\ClienteAuditoria.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Models\\ClienteAuditoria.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\ClienteAuditoria.cs",
+              "RelativeToolTip": "APIHotelBeach\\Models\\ClienteAuditoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T20:46:00.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cheque.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\Cheque.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Models\\Cheque.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\Cheque.cs",
+              "RelativeToolTip": "APIHotelBeach\\Models\\Cheque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T19:06:16.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReservacionAuditoria.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\ReservacionAuditoria.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Models\\ReservacionAuditoria.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\ReservacionAuditoria.cs",
+              "RelativeToolTip": "APIHotelBeach\\Models\\ReservacionAuditoria.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T01:27:08.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Reservacion.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\Reservacion.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Models\\Reservacion.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\Reservacion.cs",
+              "RelativeToolTip": "APIHotelBeach\\Models\\Reservacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T01:26:34.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Paquete.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\Paquete.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Models\\Paquete.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Models\\Paquete.cs",
+              "RelativeToolTip": "APIHotelBeach\\Models\\Paquete.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T23:42:40.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AutorizacionServicesEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Services\\AutorizacionServicesEmpleado.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Services\\AutorizacionServicesEmpleado.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Services\\AutorizacionServicesEmpleado.cs",
+              "RelativeToolTip": "APIHotelBeach\\Services\\AutorizacionServicesEmpleado.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T19:30:40.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AutorizacionServicesCliente.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Services\\AutorizacionServicesCliente.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Services\\AutorizacionServicesCliente.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Services\\AutorizacionServicesCliente.cs",
+              "RelativeToolTip": "APIHotelBeach\\Services\\AutorizacionServicesCliente.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T19:29:37.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "APIHotelBeach\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:21:57.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\appsettings.json",
+              "RelativeDocumentMoniker": "APIHotelBeach\\appsettings.json",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\appsettings.json",
+              "RelativeToolTip": "APIHotelBeach\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-20T17:28:49.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChequesController.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\ChequesController.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Controllers\\ChequesController.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\ChequesController.cs",
+              "RelativeToolTip": "APIHotelBeach\\Controllers\\ChequesController.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAAL4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T17:27:13.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "APIHotelBeach\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAGYCAAAAAAAAAAAAAOUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T17:25:40.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "APIHotelBeach\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T17:25:09.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaquetesController.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\PaquetesController.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Controllers\\PaquetesController.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\PaquetesController.cs",
+              "RelativeToolTip": "APIHotelBeach\\Controllers\\PaquetesController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAALwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T17:24:46.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\ReservacionesController.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Controllers\\ReservacionesController.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Controllers\\ReservacionesController.cs",
+              "RelativeToolTip": "APIHotelBeach\\Controllers\\ReservacionesController.cs",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAuwLgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T17:18:28.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Program.cs",
+              "RelativeDocumentMoniker": "APIHotelBeach\\Program.cs",
+              "ToolTip": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\Program.cs",
+              "RelativeToolTip": "APIHotelBeach\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T17:13:48.543Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

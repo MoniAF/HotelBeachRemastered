@@ -1,0 +1,218 @@
+﻿.hotel-about {
+    --about-ink: #183e3a;
+    --about-muted: #526660;
+    --about-sand: #f5f1e9;
+    --about-border: #e1e7e3;
+    color: var(--about-ink);
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 2rem;
+}
+
+    .hotel-about .about-intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+        border-radius: 1.5rem;
+        background: var(--about-sand);
+    }
+
+    .hotel-about .about-intro-content {
+        align-self: center;
+        padding: clamp(2rem, 4vw, 4rem);
+    }
+
+    .hotel-about .about-eyebrow {
+        display: block;
+        margin-bottom: 1rem;
+        color: var(--about-muted);
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+    }
+
+    .hotel-about .about-intro h1 {
+        margin: 0 0 1.5rem;
+        color: var(--about-ink);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(2.5rem, 4.5vw, 4rem);
+        font-weight: 400;
+        line-height: 1.1;
+        letter-spacing: -0.03em;
+    }
+
+    .hotel-about .about-intro p {
+        margin: 0 0 1rem;
+        color: var(--about-muted);
+        line-height: 1.85;
+    }
+
+    .hotel-about .about-intro-image {
+        min-height: 30rem;
+    }
+
+        .hotel-about .about-intro-image img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+    .hotel-about a.about-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+        margin-top: 1rem;
+        padding: 0.95rem 1.4rem;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        background: var(--about-ink);
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+    }
+
+        .hotel-about a.about-button:hover {
+            background: #285a53;
+            color: white !important;
+            font-weight: 500;
+        }
+
+        .hotel-about a.about-button:focus-visible {
+            outline: 3px solid #bd8526;
+            outline-offset: 4px;
+        }
+
+    .hotel-about .about-services {
+        padding: 4rem 0;
+    }
+
+    .hotel-about .about-section-heading {
+        max-width: 42rem;
+        margin: 0 auto 2.5rem;
+        text-align: center;
+    }
+
+        .hotel-about .about-section-heading h2,
+        .hotel-about .about-closing h2 {
+            margin: 0;
+            color: var(--about-ink);
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2rem, 3.5vw, 2.8rem);
+            font-weight: 400;
+            line-height: 1.2;
+        }
+
+        .hotel-about .about-section-heading p,
+        .hotel-about .about-closing p {
+            margin: 1rem 0 0;
+            color: var(--about-muted);
+            line-height: 1.8;
+        }
+
+    .hotel-about .about-services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+
+    .hotel-about .about-service {
+        padding: 2rem;
+        border: 1px solid var(--about-border);
+        border-radius: 1.25rem;
+        background: white;
+    }
+
+    .hotel-about .about-service-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 1.25rem;
+        border-radius: 0.9rem;
+        background: var(--about-sand);
+        color: #285a53;
+        font-size: 1.25rem;
+    }
+
+    .hotel-about .about-service h3 {
+        margin: 0 0 0.75rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .hotel-about .about-service p {
+        margin: 0;
+        color: var(--about-muted);
+        font-size: 0.9rem;
+        line-height: 1.8;
+    }
+
+    .hotel-about .about-closing {
+        padding: clamp(2rem, 5vw, 4rem);
+        border-radius: 1.5rem;
+        background: var(--about-sand);
+        text-align: center;
+    }
+
+        .hotel-about .about-closing h2 {
+            max-width: 40rem;
+            margin: 0 auto;
+        }
+
+        .hotel-about .about-closing .about-button {
+            margin-top: 1.5rem;
+        }
+
+@media (max-width: 991px) {
+    .hotel-about .about-intro {
+        grid-template-columns: 1fr;
+    }
+
+    .hotel-about .about-intro-image {
+        min-height: 0;
+        height: 22rem;
+    }
+
+    .hotel-about .about-services-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 575px) {
+    .hotel-about .about-intro-content {
+        padding: 2rem 1.5rem;
+    }
+
+    .hotel-about .about-intro-image {
+        height: 17rem;
+    }
+
+    .hotel-about .about-services {
+        padding: 3rem 0;
+    }
+
+    .hotel-about .about-services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hotel-about .about-service {
+        padding: 1.5rem;
+    }
+
+    .hotel-about a.about-button {
+        width: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hotel-about a.about-button {
+        transition: none;
+    }
+}
