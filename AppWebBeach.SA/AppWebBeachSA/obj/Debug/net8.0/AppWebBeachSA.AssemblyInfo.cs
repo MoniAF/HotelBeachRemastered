@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppWebBeachSA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0795dfb166c81a4e484a20f21af84fb2a57e7be1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a37a71962150a7c7d3f31d7020c474312c9b75eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppWebBeachSA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppWebBeachSA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

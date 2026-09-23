@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oC2DenJPbFM=",
+  "dgSpecHash": "l0/unBGGERs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\AppWebBeachSA.csproj",
+  "projectFilePath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeachRemastered\\AppWebBeach.SA\\AppWebBeachSA\\AppWebBeachSA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artav\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\artav\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

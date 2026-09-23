@@ -6761,11 +6761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\AppWebBeachSA.csproj",
+      "projectUniqueName": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeachRemastered\\AppWebBeach.SA\\AppWebBeachSA\\AppWebBeachSA.csproj",
       "projectName": "AppWebBeachSA",
-      "projectPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\AppWebBeachSA.csproj",
+      "projectPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeachRemastered\\AppWebBeach.SA\\AppWebBeachSA\\AppWebBeachSA.csproj",
       "packagesPath": "C:\\Users\\artav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\AppWebBeach.SA\\AppWebBeachSA\\obj\\",
+      "outputPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeachRemastered\\AppWebBeach.SA\\AppWebBeachSA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

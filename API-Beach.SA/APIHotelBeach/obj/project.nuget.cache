@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uVQzd6tTsfI=",
+  "dgSpecHash": "Fqz9w+maR/g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\APIHotelBeach.csproj",
+  "projectFilePath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeachRemastered\\API-Beach.SA\\APIHotelBeach\\APIHotelBeach.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artav\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\artav\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

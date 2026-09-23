@@ -7248,11 +7248,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\APIHotelBeach.csproj",
+      "projectUniqueName": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeachRemastered\\API-Beach.SA\\APIHotelBeach\\APIHotelBeach.csproj",
       "projectName": "APIHotelBeach",
-      "projectPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\APIHotelBeach.csproj",
+      "projectPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeachRemastered\\API-Beach.SA\\APIHotelBeach\\APIHotelBeach.csproj",
       "packagesPath": "C:\\Users\\artav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeach.NET\\API-Beach.SA\\APIHotelBeach\\obj\\",
+      "outputPath": "C:\\Users\\artav\\OneDrive\\Escritorio\\GitProjects\\HotelBeachRemastered\\API-Beach.SA\\APIHotelBeach\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

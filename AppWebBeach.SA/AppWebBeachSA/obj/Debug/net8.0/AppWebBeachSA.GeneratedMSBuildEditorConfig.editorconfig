@@ -17,165 +17,165 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppWebBeachSA
 build_property.RootNamespace = AppWebBeachSA
-build_property.ProjectDir = C:\Users\artav\OneDrive\Escritorio\GitProjects\HotelBeach.NET\AppWebBeach.SA\AppWebBeachSA\
+build_property.ProjectDir = C:\Users\artav\OneDrive\Escritorio\GitProjects\HotelBeachRemastered\AppWebBeach.SA\AppWebBeachSA\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\artav\OneDrive\Escritorio\GitProjects\HotelBeach.NET\AppWebBeach.SA\AppWebBeachSA
+build_property.MSBuildProjectDirectory = C:\Users\artav\OneDrive\Escritorio\GitProjects\HotelBeachRemastered\AppWebBeach.SA\AppWebBeachSA
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Cheques/Create.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Cheques/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlcXVlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Cheques/Edit.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Cheques/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlcXVlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/AccessDenied.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/ChangePassword.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Create.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Delete.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Details.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Edit.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Index.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Login.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/ObtenerInformacionPersona.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/ObtenerInformacionPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcT2J0ZW5lckluZm9ybWFjaW9uUGVyc29uYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/ResetPassword.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Clientes/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcUmVzZXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Create.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Delete.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Details.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Edit.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Index.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Login.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Empleados/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Home/Index.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Home/Sobre.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Home/Sobre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Create.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Delete.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Details.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Edit.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Index.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/_PackageFields.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/_PackageFields.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcX1BhY2thZ2VGaWVsZHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/_PackageSummary.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Paquetes/_PackageSummary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcX1BhY2thZ2VTdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/ConfirmarCliente.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/ConfirmarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YWNpb25lc1xDb25maXJtYXJDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/Create.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YWNpb25lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/Delete.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YWNpb25lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/Edit.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YWNpb25lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/Listado.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/Listado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YWNpb25lc1xMaXN0YWRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/ListadoCliente.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Reservaciones/ListadoCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YWNpb25lc1xMaXN0YWRvQ2xpZW50ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Shared/Error.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/_ViewImports.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/_ViewStart.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeach.NET/AppWebBeach.SA/AppWebBeachSA/Views/Shared/_Layout.cshtml]
+[C:/Users/artav/OneDrive/Escritorio/GitProjects/HotelBeachRemastered/AppWebBeach.SA/AppWebBeachSA/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-av3m8r6ar9
