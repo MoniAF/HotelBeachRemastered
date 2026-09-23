@@ -8,8 +8,8 @@ Hotel Beach connects customer reservations with hotel administration through an 
 
 ## 🔗 Project Links
 
-- **Live demo:** Coming soon — deployment in progress.
-- **API demo:** Coming soon — deployment in progress.
+- **Live demo:** [Explore Hotel Beach — Website](https://hotelbeach.somee.com/)
+- **API demo:** [Hotel Beach — API Rest](http://apihotelbeach.somee.com/swagger/index.html)
 - **Original group project:** [Hotel Beach — Academic Version](https://github.com/MoniAF/HotelBeach.NET)
 
 > This is a portfolio demonstration. Reservations and payment methods represent application workflows; the system does not process real card payments. Please use fictional information when exploring the demo.
